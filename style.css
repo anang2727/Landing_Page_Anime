@@ -1,0 +1,321 @@
+:root {
+  --biru-muda: #88cff0;
+  --biru: #4d76e0;
+  --hitam-gelap: #111217;
+  --hitam-abu: #1b1b23;
+  --orange: #f0a63b;
+  --ungu: #5275d9;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--hitam-gelap);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* *=======================Navbar=======================* */
+.navbar-brand,
+.navbar-link {
+  font-family: "Righteous", cursive;
+  color: #fff !important;
+}
+.navbar {
+  background-color: var(--hitam-abu) !important;
+  position: relative;
+  z-index: 1;
+}
+.nav-item {
+  color: #fff !important; 
+  margin-right: 12px;
+}
+.fa-bars {
+  color: var(--biru);
+  border: none;
+}
+
+.tombol {
+  border-radius: 5px;
+  color: #fff;
+  background-color: var(--biru);
+  /* width: 180px; */
+  font-family: poppins;
+  /* padding: 3px 20px; */
+}
+.tombol-reg {
+  border: 3px solid var(--biru);
+}
+.tombol-reg:hover {
+  background-color: var(--biru);
+  /* color: #fff; */
+}
+/* ====================================================  */
+/* ====================================================  */
+
+/* *=======================Hero=======================* */
+video {
+  min-height: 100px;
+  max-width: 100%;
+  /* position: relative; */
+  /* z-index: -1; */
+  object-fit: cover;
+}
+.hero-container h2 {
+  color: #fff;
+  /* font-size: 4rem; */
+}
+#hero .isi {
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+}
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#hero {
+  position: relative;
+}
+.hero-container::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+/* ====================================================  */
+/* ====================================================  */
+
+/* *=======================Features=======================* */
+#features {
+  margin-top: 35px;
+}
+
+.kotak {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--hitam-abu);
+  border-radius: 50px 5px 5px 5px;
+  color: #fff;
+}
+.kotak h2 {
+  color: var(--biru);
+}
+
+img {
+  animation: 2.1s alternate animasiGambar ease-in;
+}
+
+@keyframes animasiGambar {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+/* ====================================================  */
+/* ====================================================  */
+
+/* *=======================Card Payments=======================* */
+#payments {
+  background-color: var(--hitam-abu);
+}
+#payments .kartu {
+  /* height: 10%; */
+  /* width: 600px; */
+  color: #fff;
+  text-align: center;
+  font-family: poppins;
+  font-size: 4em;
+}
+#payments .card {
+  border: 2px solid var(--biru-muda);
+  background-color: var(--hitam-gelap);
+}
+#payments .card:hover {
+  background-color: var(--hitam-abu);
+  transition: 0.5s ease-in-out;
+}
+
+.card .btn {
+  background-color: var(--biru-muda);
+  border: none;
+}
+
+#payments .second {
+  border: 2px solid var(--biru);
+}
+.second .card-body .card-title {
+  color: var(--biru) !important;
+}
+.second .card-body .btn {
+  background-color: var(--biru);
+}
+#payments .third {
+  border: 2px solid var(--orange);
+}
+.third .card-body .card-title {
+  color: var(--orange) !important;
+}
+.third .card-body .btn {
+  background-color: var(--orange);
+  border: none;
+}
+/* ====================================================  */
+/* ====================================================  */
+
+/* *=======================Frequently Asked Questions=======================* */
+#faq  .judul::after {
+  content: '';
+  display: block;
+  width: 40px;
+  margin: 10px auto;
+  border-bottom: 3px solid var(--orange);
+}
+
+.accordion-button {
+  background-color: var(--hitam-abu);
+  border-radius: 50%;
+  color: #fff;
+}
+.accordion-item {
+  border-bottom: 1px solid var(--orange);
+  padding-bottom: 10px;
+  background-color: var(--hitam-gelap);
+}
+.accordion-button:not(.collapsed) {
+  color: var(--hitam-gelap);
+  background-color: var(--orange);
+}
+#faq .accordion-button:focus {
+  z-index: 3;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 0.25rem rgba(0, 0, 0, 0.25) !important;
+}
+.accordion-body {
+  color: #fff;
+}
+
+/* ====================================================  */
+/* ====================================================  */
+
+
+
+/* *=======================Download=======================* */
+#download {
+  margin: 100px 0;
+}
+#download .container {
+  background-color: var(--hitam-abu);
+}
+#download .container h2::after {
+  content: '';
+  display: block;
+  width: 40px;
+  margin: 10px auto;
+  border-bottom: 3px solid var(--orange);
+}
+
+/* ====================================================  */
+/* ====================================================  */
+
+
+/* *=======================Feedback=======================* */
+#feedback .container label {
+  color: #fff;
+}
+#feedback .container h2::after{
+  content: '';
+  display: block;
+  width: 40px;
+  margin: 10px auto;
+  border-bottom: 3px solid var(--orange);
+}
+
+/* ====================================================  */
+/* ====================================================  */
+
+
+/* *=======================Footer=======================* */
+#footer .kaki {
+  background-color: var(--hitam-abu) !important;
+}
+#footer .kaki i {
+  color: #fff;
+}
+#footer .kaki i:hover {
+  color: var(--biru);
+  transform: scale(1.4);
+  transition: 0.3s ease-in-out;
+}
+
+#footer .kaki .copyright {
+  background-color: var(--biru) !important;
+}
+#footer .kaki .copyright .text-decoration-none {
+  color: var(--hitam-gelap);
+}
+
+/* ====================================================  */
+/* ====================================================  */
+
+/* Dekstop version  */
+@media (min-width: 992px) {
+  .navbar-brand,
+  .navbar-link {
+    color: #fff !important;
+  }
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid var(--biru);
+    width: 50%;
+    margin: auto;
+    margin-bottom: -8px;
+    padding-bottom: 5px;
+  }
+  .jumbotron {
+    height: 640px;
+  }
+  .jumbotron .display-4 {
+    font-size: 62px;
+  }
+  .kotak .teks .fw-normal {
+    width: 400px;
+    font-size: 1.4em;
+  }
+
+  .container .mail p {
+    width: 60%;
+  }
+  .hero-container h2 {
+    font-size: 4rem;
+  }
+  .hero-container .tombol {
+    width: 180px;
+  }
+}
+/* ====================================================  */
+/* ====================================================  */
+
+/* mobile version  */
+@media (max-width: 768px) {
+  .kotak {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+  }
+}
+/* ====================================================  */
+/* ====================================================  */

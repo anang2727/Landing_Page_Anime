@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Link Boostrap  -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Link css Vanila  -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Link icon -->
+  <link
+  rel="shortcut icon"
+  href="img/icon.ico"
+  type="image/x-icon"/>
+  <!-- Link font awesome Icon -->
+  <link rel="stylesheet" href="fontawesome-free-6.2.1-web/css/all.min.css" >
+  <!-- link font  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Righteous&display=swap" rel="stylesheet">
+
+  <title>First WebSite</title>
+</head>
+<body>
+  <!-- Navbar  -->
+  <nav class="navbar navbar-expand-lg navbar-light ">
+    <div class="container">
+      <img src="img/icon.ico" width="35" alt="" class="me-3" >
+      <a class="navbar-brand" href="#">CodeLazz</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <!-- <span class="navbar-toggler-icon"></span> -->
+        <i class="fa-sharp fa-solid fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
+        <div class="navbar-nav ms-auto">
+          <a class="nav-item nav-link active" aria-current="page" href="#hero">Home</a>
+          <a class="nav-item nav-link" href="#features">Features</a>
+          <a class="nav-item nav-link" href="#payments">Payments</a>
+          <a class="nav-item nav-link" href="#faq">FaQ</a>
+          <a class="nav-item nav-link" href="#download">Download</a>
+          <!-- <a class="nav-item tombol btn  text-light" href="#">Sign In</a> -->
+          <a class="nav-item tombol-reg btn  text-light" href="#">Register</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+<!-- Hero  -->
+  <section id="hero">
+    <div class="hero-container">
+      <video src="./img/videoplayback.mp4 " autoplay muted loop></video>
+      <div class="isi">
+        <h2>Watch and Download <br> Your Favorite Anime</h2>
+        <button class="btn btn-primary tombol">START</button>
+      </div>
+    </div>
+  </section>
+<!-- End Jumbotron  -->
+
+<!-- Features Anime  -->
+<section id="features" class="py-5 mb-5">
+  <div class="container kotak">
+    <div class="teks">
+      <h2 class="fw-bold text-md-start display-5">Watch Everytime</h2>
+      <p class="fw-normal text-md-start">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+    </div>
+    <div class="gbr">
+      <img src="img/anime.png" width="250" alt="" class="img-fluid"> 
+    </div>
+  </div>
+
+</section>
+<!-- End -->
+
+
+<!-- Payments  -->
+<section id="payments" class="mt-5">
+  <div class="container ">
+    <div class="row kartu py-5">
+      <div class="col-md-4 py-4">
+        <div class="card">
+          <div class="card-body py-3">
+            <h5 class="card-title text-light text-center my-4 ">Basic</h5>
+            <p class="card-text  text-light">$12</p>
+            <a href="#payments" class="btn btn-primary mx-auto"><i class="fa-solid fa-cart-shopping mx-2" style="color: #111217;"></i>Get Started</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 py-4">
+        <div class="card second">
+          <div class="card-body py-3">
+            <h5 class="card-title text-light text-center my-4 ">Standart</h5>
+            <p class="card-text  text-light">$24</p>
+            <a href="#payments" class="btn btn-primary mx-auto"><i class="fa-solid fa-cart-shopping mx-2" style="color: #111217;"></i>Get Started</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4  py-4">
+        <div class="card third">
+          <div class="card-body py-3">
+            <h5 class="card-title text-light text-center my-4 ">Premium</h5>
+            <p class="card-text  text-light">$36</p>
+            <a href="#payments" class="btn btn-primary mx-auto"><i class="fa-solid fa-cart-shopping mx-2" style="color: #111217;"></i>Get Started</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <svg class="" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#1b1b23" fill-opacity="1" d="M0,128L48,128C96,128,192,128,288,117.3C384,107,480,85,576,69.3C672,53,768,43,864,80C960,117,1056,203,1152,208C1248,213,1344,139,1392,101.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path>
+    </svg>
+<!-- End  -->
+
+<!-- FaQ  -->
+<section id="faq" class="my-md-5 ">
+    <div class="accordion accordion-flush col-sm-8 offset-sm-2" id="accordionFlushExample">
+      <h2 class="text-light my-4 judul text-center" >Frequently Asked Questions</h2>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingOne">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+            Apa yang bisa ditonton?
+          </button>
+        </h2>
+        <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Situs ini memiliki pustaka lengkap yang berisi Movies, acara TV, anime original pemenang penghargaan, dan lebih banyak lagi. Tonton sepuasnya, kapan pun kamu mau.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingTwo">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+            WebSite Apa ini?
+          </button>
+        </h2>
+        <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Kamu bisa menonton sepuasnya, kapan pun kamu mau, tanpa satu iklan pun  semuanya dengan satu harga bulanan yang murah. Selalu ada tontonan baru dan acara TV serta film baru yang ditambahkan setiap minggu!.</div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="flush-headingThree">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+            Dimana saya bisa menonton?
+          </button>
+        </h2>
+        <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+          <div class="accordion-body">Kamu juga bisa men-download acara favoritmu dengan aplikasi iOS, Android, atau Windows 10. Gunakan download untuk menonton saat kamu di perjalanan dan tidak punya koneksi Internet. Bawa Netflix ke mana saja.</div>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- End  -->
+
+<!-- Download  -->
+<section id="download" class="py-5">
+  <div class="container py-5">
+    <h2 class="display-1 fw-bold fs-1 text-light text-center">Download App</h2>
+    <p class="text-light text-center">Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br> At esse provident aut dolores mollitia repudiandae, fuga architecto vitae similique in.</p>
+    
+    
+    <div class="unduh  d-md-flex justify-content-center gap-3">
+
+      
+      <a href="#download" class="btn mt-4 btn-primary tombol d-flex justify-content-around align-items-center">
+        <i class="fa-brands me-3 text-center fa-apple"></i>
+        App Store<i  class="ms-4 fa-sharp fa-solid fa-download"></i>
+      </a>
+      <a href="#download" class="btn mt-4 btn-primary tombol d-flex justify-content-around align-items-center">
+        <i class="fa-brands  text-center me-3 fa-google-play"></i>
+        Google Play<i  class="ms-4 fa-sharp fa-solid fa-download"></i>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- End  -->
+
+<!-- feedback Form  -->
+<section id="feedback" class="py-5" >
+  <div class="container">
+    <div class="mb-3 col-sm-6 offset-sm-3">
+      <h2 class="display-1 fw-bold fs-1 text-light text-center">Feedback</h2>
+      <label for="exampleFormControlInput1" class="form-label mt-3">Email address</label>
+      <input type="email" class="form-control" name="submit" id="exampleFormControlInput1" required placeholder="name@example.com">
+    </div>
+    <div class="mb-3 col-sm-6 offset-sm-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Your Feedback</label>
+      <textarea class="form-control" name="submit" required id="exampleFormControlTextarea1" rows="3"></textarea>
+      <a href="#feedback" name="submit" class="btn tombol mt-4">Send</a>
+    </div>
+  </div>
+</section>
+<!-- End  -->
+
+<!-- Footer  -->
+<section id="footer">
+<div class=" mt-5">
+  <footer class="text-center kaki text-white">
+  <div class="container pt-4">
+    <section class="mb-4">
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+
+      <!-- Twitter -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-twitter"></i
+      ></a>
+
+      <!-- Google -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-google"></i
+      ></a>
+
+      <!-- Instagram -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-instagram"></i
+      ></a>
+
+      <!-- Linkedin -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-linkedin"></i
+      ></a>
+      <!-- Github -->
+      <a
+        class="btn btn-link btn-floating btn-lg text-dark m-1"
+        href="#!"
+        role="button"
+        data-mdb-ripple-color="dark"
+        ><i class="fab fa-github"></i
+      ></a>
+    </section>
+    <!-- Section: Social media -->
+  </div>
+  <!-- Grid container -->
+
+  <!-- Copyright -->
+  <div class="text-center copyright text-light p-3">
+    © 2023 Copyright:
+    <a class="text-decoration-none fw-bold" href="#footer">Codelazz.com</a>
+  </div>
+  <!-- Copyright -->
+</footer>
+  
+</div>
+<!-- End of .container -->
+</section>
+<script src="js/bootstrap.bundle.js" ></script>
+<script src="js/bootstrap.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
